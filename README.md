@@ -9,12 +9,6 @@ Usage
 
 Features
 
-Contributing
-
-License
-
-Credits
-
 Installation
 Clone the repository to your local machine and you are good to go. Use these commands:
 git clone https://github.com/metasaumil/Data-Structures.git
