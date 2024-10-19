@@ -16,14 +16,9 @@ License
 Credits
 
 Installation
-Clone the repository to your local machine:
-
-bash
-
-Copy
+Clone the repository to your local machine and you are good to go. Use these commands:
 git clone https://github.com/metasaumil/Data-Structures.git
 cd Data-Structures
-
 
 Usage
 Navigate to the directory of the specific data structure and language you’re interested in and then find the code you are looking for by looking at the file names. Each file name has a keyword for the problem.
