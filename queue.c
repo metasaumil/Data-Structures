@@ -31,6 +31,7 @@ int delete(queue *q, int *x) {
 void display(queue q) {
     for(int i = q.front; i<=q.rear; i++)
         printf("%d ", q.array[i]);
+    printf("\n");
 }
 void start(queue *q) {
     for(int i = 1; i<=5; i++)
