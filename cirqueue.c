@@ -24,8 +24,10 @@ int delete(queue *q, int *x) {
     if(q->f==-1&&q->r==-1) {
         printf("Queue is empty\n");
         return -1;
-    }
-    *x = q->array[q->f++%max];
+    } else if(q->f==q->r) {
+        *x = q->array[q->f];
+        q->f = q->r = -1;
+    } else *x = q->array[q->f++%max];
     return 1;
 }
 int start(queue *q) {

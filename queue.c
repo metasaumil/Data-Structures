@@ -31,6 +31,8 @@ int delete(queue *q, int *x) {
 void display(queue q) {
     for(int i = q.front; i<=q.rear; i++)
         printf("%d ", q.array[i]);
+    q->r--;
+    if (q->r == -1) q->f = -1;
     printf("\n");
 }
 void start(queue *q) {
